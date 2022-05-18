@@ -1,17 +1,17 @@
 // @ts-check
 /* eslint-disable no-restricted-syntax */
 
-const { type } = require('os')
+// const { type } = require('os')
 
 /**
- * @typedef Person
+ * @typedef PersonOfCity
  *
  * @property {number} age
  * @property {string} city
  * @property {string | string[]} [pet]
  */
 
-/** @type {Person[]} */
+/** @type {PersonOfCity[]} */
 const people = [
   {
     age: 20,

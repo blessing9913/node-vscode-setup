@@ -7,7 +7,7 @@
     "node": "v16.13.2"
   },
   "scripts": {
-    "test": "echo \"Hello, world\"",
+    "test": "eslint src/**/*.js",
     "debug": "node src/main.js",
     "build": "esbuild src/transfile.js --bundle --outfile=build/main.js --target=node10.15"
   },
